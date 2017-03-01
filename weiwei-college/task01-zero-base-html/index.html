@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>零基础HTML编码</title>
+</head>
+<body>
+<h2>基础标签：</h2>
+
+<h4>1. 标题：</h4>
+<h1>一级标题</h1>
+<h2>二级标题</h2>
+<h3>三级标题</h3>
+<h4>四级标题</h4>
+<h5>五级标题</h5>
+<h6>六级标题</h6>
+
+<h4>2. 段落</h4>
+<p>
+    这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。</p>
+
+<h4>3. 换行：</h4>
+
+<p>床前明月光，<br/>疑是地上霜。<br/>举头望明月，<br/>低头思故乡。</p>
+
+<!--测试注释标签-->
+
+<h4>4. 分割线：</h4>
+<hr/>
+
+<h2>格式标签</h2>
+<h4>1. 缩写：</h4>
+<abbr title="Baidu institute of Front End Technology">IFE</abbr>
+
+<h4>2. 加粗：</h4>
+<b>加粗！</b>
+
+<h4>3. 文字方向：</h4>
+<bdo>这是一段文字。</bdo><br/>
+<bdo dir="rtl">这是一段文字。</bdo>
+
+<h4>4. 长引用：</h4>
+<blockquote>我是一段长引用！我是一段长引用！我是一段长引用！我是一段长引用！我是一段长引用！我是一段长引用！我是一段长引用！我是一段长引用！我是一段长引用！我是一段长引用！我是一段长引用！我是一段长引用！我是一段长引用！
+</blockquote>
+
+<H4>5. 引用：</H4>
+文章<cite>第一堂课</cite>
+
+<h4>6. 代码文本：</h4>
+<code>
+    &lt;script src="demo.js"&gt;&lt;/script&gt;
+</code>
+
+<h4>7. 删除文本：</h4>
+<del>删除这行文本！</del>
+
+<h4>8.插入文本：</h4>
+<ins>插入文本</ins>
+
+<h4>9. 定义项目：</h4>
+<dfn>IT:</dfn> Information Technology
+
+<h4>10. 强调文本：</h4>
+<p>这段文字要<em>强调</em>一些内容！</p>
+
+<h4>11. 斜体：</h4>
+<i>斜体</i>
+
+<h4>12. 键盘文本：</h4>
+键入<kbd>quit</kbd>退出！
+
+<h4>13. 标记文本</h4>
+<mark>标记</mark>
+文本内容！
+
+<h4>14. 标量测量（不支持该元素的浏览器将显示浏览器中的内容）</h4>
+<meter value="3" max="10" min="0">十分之三</meter>
+
+<h4>15. 进度</h4>
+<progress max="10" value="4">进度</progress>
+
+<h4>16. 短引用</h4>
+下面是一段<q>短的引用。</q>
+
+<h4>17. ruby使用</h4>
+<ruby>
+    汉
+    <rt>han</rt>
+</ruby>
+
+<h4>18. 预格式文本</h4>
+<pre>
+    &lt;html&gt;
+        &lt;head&gt;
+
+        &lt;/head&gt;
+        &lt;body&gt;
+
+        &lt;/body&gt;
+    &lt;/html&gt;
+</pre>
+
+<h4>19. 强调文本</h4>
+突出<strong>强调文本</strong>内容
+
+<h4>20. 上标文本</h4>
+x<sup>2</sup>
+
+<h4>21. 下标文本</h4>
+H<sub>2</sub>O
+
+<h4>22. 带下划线的文字</h4>
+<u>下划线</u>文字
+
+<hr/>
+
+<h1>表单标签：</h1>
+
+<form>
+    <fieldset>
+        <legend>基础信息</legend>
+        用户名：<input type="text" value="">
+        <br>
+        密码：<input type="password" value="">
+        <br>
+        性别：<input type="radio" value="male" name="sex" checked>男<input type="radio" value="female" name="sex">女
+        <br/>
+        城市：
+        <select>
+            <option>西安</option>
+            <option>北京</option>
+        </select>
+        <br/>
+        爱好：
+        <input type="checkbox" name="habit" value="ping-pang"> 乒乓球
+        <input type="checkbox" name="habit" value="basketball">篮球
+        <input type="checkbox" name="habit" value="sing">唱歌
+        <br/>
+        备注：
+        <br/>
+        <textarea cols="100px"></textarea>
+        <br/>
+
+    </fieldset>
+    <button>提交</button>
+</form>
+
+<hr/>
+
+<h2>图像标签：</h2>
+<img src="images/three-cat.jpg" alt="猫咪" width="200" height="100"/>
+
+<h2>超链接：</h2>
+点击打开<a href="http://www.baidu.com">百度一下</a><br/>
+点击打开<a href="http://ife.baidu.com/">百度前端技术学院</a>
+
+<h2>列表标签：</h2>
+<h4>1. 无序列表：</h4>
+<ul>
+    <li>HTML学院</li>
+    <li>CSS学院</li>
+    <li>JS学院</li>
+</ul>
+
+<h4>2. 有序列表：</h4>
+<ol>
+    <li>排名1</li>
+    <li>排名2</li>
+    <li>排名3</li>
+</ol>
+
+<h4>3. 定义列表：</h4>
+<dl>
+    <dt>计算机</dt>
+    <dd>用于计算的仪器。</dd>
+    <dt>显示器</dt>
+    <dd>用于显示内容的仪器。</dd>
+</dl>
+
+<h2>表格标签：</h2>
+<table border="2">
+    <tr>
+        <th>表头</th>
+        <th>表头</th>
+        <th>表头</th>
+    </tr>
+    <tr>
+        <td>表内容</td>
+        <td>表内容</td>
+        <td>
+            <a href="#">操作</a>
+        </td>
+    </tr>
+    <tr>
+        <td>表内容</td>
+        <td>表内容</td>
+        <td>
+            <a href="#">操作</a>
+        </td>
+    </tr>
+    <tr>
+        <td>表内容</td>
+        <td>表内容</td>
+        <td>
+            <a href="#">操作</a>
+        </td>
+    </tr>
+    <tr>
+        <td>表内容</td>
+        <td>表内容</td>
+        <td>
+            <a href="#">操作</a>
+        </td>
+    </tr>
+    <tr>
+        <td>总计</td>
+        <td colspan="2">1000</td>
+    </tr>
+</table>
+
+<h2>样式/节标签：</h2>
+<h4>1. div元素：</h4>
+<div>
+    这是一个div元素。这是一个div元素。这是一个div元素。这是一个div元素。这是一个div元素。这是一个div元素。这是一个div元素。这是一个div元素。这是一个div元素。这是一个div元素。
+    这是一个div元素。这是一个div元素。这是一个div元素。这是一个div元素。这是一个div元素。这是一个div元素。这是一个div元素。这是一个div元素。这是一个div元素。这是一个div元素。
+</div>
+<h4>2. span元素：</h4>
+一个<span>行内元素</span>哦！
+版权所有&copy;
+</body>
+</html>
