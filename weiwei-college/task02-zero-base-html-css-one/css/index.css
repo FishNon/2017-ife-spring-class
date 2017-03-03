@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #dedede;
+    min-width: 1000px;
+}
+
+/*header style*/
+.header {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: #333;
+}
+
+.header img {
+    position: relative;
+    left: 32px;
+    top: 5px;
+    width: 130px;
+}
+
+.header ul {
+    position: relative;
+    display: inline-block;
+    float: right;
+    line-height: 60px;
+}
+
+.header ul li {
+    float: left;
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "仿宋", "宋体";
+    font-weight: bolder;
+}
+
+.header ul li:nth-child(4) a {
+    margin-right: 10px;
+    color: #a6a4a9;
+}
+
+/*main style*/
+.main {
+    position: relative;
+}
+
+.section {
+    position: relative;
+    padding: 30px 20px;
+    margin: 20px;
+    background: #fff;
+    border: 1px solid #cbcbcb;
+    box-shadow: 2px 2px #848484;
+}
+
+.section h1 {
+    font-size: 22px;
+    font-family: "黑体";
+    font-weight: 600;
+}
+
+.section h2 {
+    padding: 15px 0 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #646464;
+}
+
+.section span {
+    display: block;
+    font-size: 12px;
+    color: #646464;
+}
+
+.section > p {
+    padding: 10px 0;
+    text-indent: 2em;
+    line-height: 2em;
+    font-family: "宋体";
+    font-size: 16px;
+}
+
+.section img {
+    width: 500px;
+}
+
+.section ul {
+    padding: 20px 20px 0;
+    list-style-type: none;
+}
+
+.section ol {
+    padding: 20px 0 10px 40px;
+}
+
+.img-control {
+    position: relative;
+    border: 1px solid #cbcbcb;
+    width: 200px;
+    margin: 20px 0 0 40px;
+}
+
+.img-control p {
+    font-size: 15px;
+    text-align: center;
+    text-indent: 0;
+}
+
+.img-control img {
+    position: relative;
+    display: block;
+    width: 160px;
+    margin: 0 20px 20px;
+}
+
+.section table {
+    width: 100%;
+}
+
+.section table tr td {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.section table tr th {
+    background: #333;
+    color: #fff;
+    text-align: left;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.section table tr:nth-child(6) {
+    background: #ccc;
+}
+
+.left-side-title {
+    position: relative;
+    padding: 5px 0 5px 10px;
+    border-left: 3px solid #cacaca;
+    font-weight: 700;
+}
+
+.section form {
+    position: relative;
+    margin: 10px 0 0 200px;
+}
+
+.section form label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin: 10px 5px 0;
+}
+
+#user-email, #user-password, #user-password-repeat {
+    height: 25px;
+    width: 240px;
+}
+
+.user-information-explain {
+    text-indent: 13.5em;
+    padding: 0;
+}
+
+input[type="radio"] + label {
+    width: 20px;
+}
+
+input[type="checkbox"] + label {
+    width: 50px;
+    text-align: left;
+}
+
+form textarea {
+    width: 60%;
+    height: 150px;
+    vertical-align: text-top;
+}
+
+form button {
+    position: relative;
+    margin: 20px;
+    width: 85%;
+    height: 40px;
+    border-radius: 7px;
+    background: #3355d0;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*footer style*/
+
+.footer {
+    background: #000;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 12px;
+}
