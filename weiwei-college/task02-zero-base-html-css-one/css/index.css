@@ -152,14 +152,16 @@ body {
 
 .section form {
     position: relative;
-    margin: 10px 0 0 200px;
+    margin: 10px 0 0 ;
 }
 
 .section form label {
+    position: relative;
     display: inline-block;
-    width: 150px;
+    width: 390px;
     text-align: right;
     margin: 10px 5px 0;
+
 }
 
 #user-email, #user-password, #user-password-repeat {
@@ -168,8 +170,10 @@ body {
 }
 
 .user-information-explain {
-    text-indent: 13.5em;
+    position: relative;
     padding: 0;
+    left:405px;
+    width:600px;
 }
 
 input[type="radio"] + label {
@@ -177,36 +181,35 @@ input[type="radio"] + label {
 }
 
 input[type="checkbox"] + label {
-    width: 50px;
+    width: 3em;
     text-align: left;
 }
 
 form textarea {
-    width: 60%;
+    width:60%;
     height: 150px;
     vertical-align: text-top;
 }
-
-form button {
+form button{
     position: relative;
-    margin: 20px;
-    width: 85%;
-    height: 40px;
+    margin:20px;
+    width:97%;
+    height:40px;
     border-radius: 7px;
     background: #3355d0;
-    border: none;
-    color: #fff;
+    border:none;
+    color:#fff;
     font-size: 16px;
     font-weight: 700;
 }
 
 /*footer style*/
 
-.footer {
-    background: #000;
-    height: 60px;
-    color: #fff;
+.footer{
+    background:#000;
+    height:60px;
+    color:#fff;
     text-align: center;
-    line-height: 60px;
-    font-size: 12px;
+    line-height:60px;
+    font-size:12px;
 }
