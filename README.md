@@ -13,7 +13,7 @@
 
 * 位置：[weiwei-college/task02-zero-base-html-css-one]
 * 主要内容：HTML标签、CSS样式的使用
-* 效果展示：
+* 效果展示：[零基础HTML及CSS编码（一）](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task02-zero-base-html-css-one/index.html)
 
 ## 糯米学院
 
