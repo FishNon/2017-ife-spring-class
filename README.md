@@ -21,7 +21,7 @@
 * 主要内容：三栏式布局，运用定位、浮动、margin来控制
 * 效果展示：
   * [三栏式布局-两端固定，中间自适应（实现一）](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task03-three-column-layout/index.html)
-  * [三栏式布局-两端固定，中间自适应（实现二）]（https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task03-three-column-layout/other-implement/implement-two.html）
+  * [三栏式布局-两端固定，中间自适应（实现二）](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task03-three-column-layout/other-implement/implement-two.html)
 
 ## 糯米学院
 
