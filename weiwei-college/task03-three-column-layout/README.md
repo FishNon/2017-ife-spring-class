@@ -43,7 +43,7 @@
 #### 三栏式布局-两端固定，中间自适应
 
 * 主要运用：浮动、margin
-* 具体实现：[点击查看](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task03-three-column-layout/other-implement/implement-one.html)
+* 具体实现：[点击查看](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task03-three-column-layout/other-implement/implement-two.html)
 
 #### 三栏式布局-两端固定，中间自适应
 
