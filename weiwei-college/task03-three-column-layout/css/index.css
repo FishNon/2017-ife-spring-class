@@ -1,56 +1,67 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
-.container{
-    position: relative;
-    margin:20px;
-    float: left;
-    background: #eee;
-    border:1px solid #999;
+body,html{
+    height:100%;
 }
-.container div{
-    border:1px solid #999;
+
+.container {
+    position: relative;
+    margin: 20px;
+    background: #eee;
+    border: 1px solid #999;
+    min-width: 500px;
+}
+
+.container div {
+    border: 1px solid #999;
+}
+
+img {
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #999;
+}
+
+h1{
+    position: relative;
+    display: inline-block;
+    top:-60px;
+    left: 10px;
+    font-size: 17px;
+}
+
+.team-header {
+    position: absolute;
+    left: 0;
+    top: 0;
     padding: 20px;
+    margin: 20px;
+    width: 200px;
     background: #fff;
 }
-.team-header{
+
+.team-intro {
     position: relative;
-    float: left;
-    width:200px;
-    margin:20px;
+    margin: 20px 160px 20px 280px;
+    text-align: justify;
+    background: #fff;
+    padding: 20px;
 }
-.team-header img{
-    float: left;
+.team-intro p{
+    /*text-indent: 2em;*/
+    line-height: 2em;
+    margin: 10px 0;
+}
+
+.team-member {
+    position: absolute;
+    top: 0;
+    right: 0;
     width: 80px;
-    height:80px;
-    border: 1px solid #999;
-}
-.team-header h1{
-    position: relative;
-    float: left;
-    font-size:19px;
-    margin:-3px 20px;
-}
-.team-intro{
-    position: relative;
-    float: left;
-    margin:20px 0 0;
-    width: 60%;
-}
-.team-member{
-    position: relative;
-    float: left;
-    width:80px;
-    margin:20px;
-    padding-bottom: 0;
-}
-.team-member img{
-    width:80px;
-    height:80px;
-    border: 1px solid #999;
-    margin: 0 0 20px 0;
-}
-.team-member img:nth-child(4){
-    margin: 0;
+    padding: 20px 20px 0;
+    margin: 20px;
+    background: #fff;
 }
