@@ -37,21 +37,20 @@ h1{
     position: absolute;
     left: 0;
     top: 0;
-    padding: 20px;
+    padding: 20px 20px 0;
     margin: 20px;
-    width: 200px;
+    width: 158px;
     background: #fff;
 }
 
 .team-intro {
     position: relative;
-    margin: 20px 160px 20px 280px;
+    margin: 20px 165px 20px 240px;
     text-align: justify;
     background: #fff;
     padding: 20px;
 }
 .team-intro p{
-    /*text-indent: 2em;*/
     line-height: 2em;
     margin: 10px 0;
 }
