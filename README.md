@@ -15,6 +15,14 @@
 * 主要内容：HTML标签、CSS样式的使用
 * 效果展示：[零基础HTML及CSS编码（一）](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task02-zero-base-html-css-one/index.html)
 
+### 任务三：三栏式布局
+
+* 位置：[weiwei-college/task03-three-column-layout]
+* 主要内容：三栏式布局，运用定位、浮动、margin来控制
+* 效果展示：
+  * [三栏式布局-两端固定，中间自适应（实现一）](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task03-three-column-layout/index.html)
+  * [三栏式布局-中间固定，两边自适应]（更新中）
+
 ## 糯米学院
 
 ### 任务一：自定义的checkbox，radio样式
