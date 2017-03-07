@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三栏式布局-中间固定，两端自适应</title>
+    <style>
+        .container{
+            float: left;
+            min-width:680px;
+            margin:20px;
+            padding-left: 240px;
+            padding-right: 200px;
+            background: #eee;
+            border:1px solid #999;
+        }
+        .column{
+            position: relative;
+            float: left;
+            background:#fff;
+            padding: 20px;
+            margin:20px 0;
+            border:1px solid #999;
+        }
+        img{
+            width:80px;
+            height: 80px;
+            border:1px solid #999;
+            margin-bottom: 20px;
+        }
+        .team-intro{
+            padding: 20px;
+            width:100%;
+        }
+        .team-header{
+            width:160px;
+            margin-left: -100%;
+            right:260px;
+        }
+        .team-header h1{
+            font-size: 19px;
+            float: right;
+        }
+        .team-member{
+            width:80px;
+            margin-right:-170px;
+            left:20px;
+            padding-bottom: 0;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="team-intro column">
+        <h4>团队介绍：</h4>
+        <p>
+            这是一个兔斯基团队,一群放纵不羁爱自由的猿。一首诗的描述╮(╯▽╰)╭，
+        </p>
+        <p>
+            举头望明月，低头写程序。<br/>
+            但愿人长久，天天写程序。<br/>
+            垂死病中惊坐起，我的程序没写完。<br/>
+            小扣门扉久不开，主人在家写程序。<br/>
+            少小离家老大回，程序无改鬓毛衰。<br/>
+            唧唧复唧唧，木兰写程序。<br/>
+            白发三千丈，缘bug改不完。<br/>
+            日暮乌啼霜满天，写程序者对愁眠。<br/>
+            孤舟蓑笠翁，独自写程序。<br/>
+            明月几时有，把酒写程序。<br/>
+            问君能有几多愁，恰似满屏bug无法修。<br/>
+        </p>
+        <span>——摘自网络，纯属娱乐，如有侵权，请联删(⊙v⊙)</span>
+    </div>
+    <div class="team-header column">
+        <img src="../img/team-header.jpg"/>
+        <h1>第七组</h1>
+    </div>
+    <div class="team-member column">
+        <img src="../img/member-one.jpg">
+        <img src="../img/member-two.jpg">
+        <img src="../img/member-three.jpg">
+        <img src="../img/member-four.jpg">
+    </div>
+</div>
+
+</body>
+</html>
