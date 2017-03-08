@@ -56,6 +56,6 @@
 #### 三栏式布局-两端固定，中间自适应
 * 方法：双飞翼布局
 * 主要运用：
-* 效果查看：[点击查看]()
-* 代码实现：[点击查看]()
+* 效果查看：[点击查看](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task03-three-column-layout/other-implement/implement-four.html)
+* 代码实现：[点击查看](https://github.com/FishNon/2017-ife-spring-class/blob/master/weiwei-college/task03-three-column-layout/other-implement/implement-four.html)
 
