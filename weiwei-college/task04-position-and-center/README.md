@@ -2,8 +2,10 @@
 ==================
 
 ## 实现：
-* 效果查看：[]()
-* 代码实现：[]()
+* 效果查看：[点击查看](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task04-position-and-center/index.html)
+* 代码实现：
+  * [点击查看HTML代码](https://github.com/FishNon/2017-ife-spring-class/blob/master/weiwei-college/task04-position-and-center/index.html)
+  * [点击查看CSS代码](https://github.com/FishNon/2017-ife-spring-class/blob/master/weiwei-college/task04-position-and-center/css/index.css)
 
 ## 题目：
 

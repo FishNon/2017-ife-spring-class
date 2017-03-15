@@ -25,6 +25,19 @@
   * [三栏式布局-两端固定，中间自适应（圣杯布局）](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task03-three-column-layout/other-implement/implement-three.html)
   * [三栏式布局-两端固定，中间自适应（双飞翼布局）](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task03-three-column-layout/other-implement/implement-four.html)
 
+### 任务四：定位和居中问题
+
+* 位置：[weiwei-college/task04-position-and-center]
+* 主要内容：
+* 效果展示：[定位和居中问题](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task04-position-and-center/index.html)
+
+### 任务五：零基础HTML及CSS编码（二）
+
+* 位置：[weiwei-college/task05-zero-base-html-css-two]
+* 主要内容：HTML标签、CSS样式的使用
+* 效果展示：[零基础HTML及CSS编码（二）](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task05-zero-base-html-css-two/index.html)
+
+
 ## 糯米学院
 
 ### 任务一：自定义的checkbox，radio样式
