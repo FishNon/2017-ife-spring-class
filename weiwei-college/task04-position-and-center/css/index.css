@@ -21,7 +21,7 @@ html, body {
 
 .main:before, .main:after {
     content: '';
-    position: relative;
+    position: absolute;
     display: block;
     width: 0;
     height: 0;
@@ -39,7 +39,8 @@ html, body {
 }
 
 .main:after {
-    top: 50px;
+    /*top: 50px;*/
+    bottom: -50px;
     margin-left: calc(100% - 50px);
     transform: rotate(-135deg);
 }
