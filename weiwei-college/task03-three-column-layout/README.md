@@ -1,6 +1,32 @@
 任务三：三栏式布局
 ===================
 
+## 实现
+
+#### 三栏式布局-两端固定，中间自适应
+* 方法：绝对定位法
+* 主要运用：定位、margin
+* 效果查看：[点击查看](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task03-three-column-layout/index.html)
+* 代码实现：[点击查看](https://github.com/FishNon/2017-ife-spring-class/blob/master/weiwei-college/task03-three-column-layout/index.html)
+
+#### 三栏式布局-两端固定，中间自适应
+* 方法：浮动
+* 主要运用：浮动、margin
+* 效果查看：[点击查看](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task03-three-column-layout/other-implement/implement-two.html)
+* 代码实现：[点击查看](https://github.com/FishNon/2017-ife-spring-class/blob/master/weiwei-college/task03-three-column-layout/other-implement/implement-two.html)
+
+#### 三栏式布局-两端固定，中间自适应
+* 方法：圣杯布局
+* 主要运用：
+* 效果查看：[点击查看](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task03-three-column-layout/other-implement/implement-three.html)
+* 代码实现：[点击查看](https://github.com/FishNon/2017-ife-spring-class/blob/master/weiwei-college/task03-three-column-layout/other-implement/implement-three.html)
+
+#### 三栏式布局-两端固定，中间自适应
+* 方法：双飞翼布局
+* 主要运用：
+* 效果查看：[点击查看](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task03-three-column-layout/other-implement/implement-four.html)
+* 代码实现：[点击查看](https://github.com/FishNon/2017-ife-spring-class/blob/master/weiwei-college/task03-three-column-layout/other-implement/implement-four.html)
+
 ## 题目：
 #### 题目链接：
 * http://ife.baidu.com/course/detail/id/94
@@ -32,30 +58,4 @@
 ## 题目相关文件
 * 样例文件：[task-document/sample.jpg]
 * 样例分析：三栏式布局——两边固定，中间自适应
-
-## 实现
-
-#### 三栏式布局-两端固定，中间自适应
-* 方法：绝对定位法
-* 主要运用：定位、margin
-* 效果查看：[点击查看](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task03-three-column-layout/index.html)
-* 代码实现：[点击查看](https://github.com/FishNon/2017-ife-spring-class/blob/master/weiwei-college/task03-three-column-layout/index.html)
-
-#### 三栏式布局-两端固定，中间自适应
-* 方法：浮动
-* 主要运用：浮动、margin
-* 效果查看：[点击查看](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task03-three-column-layout/other-implement/implement-two.html)
-* 代码实现：[点击查看](https://github.com/FishNon/2017-ife-spring-class/blob/master/weiwei-college/task03-three-column-layout/other-implement/implement-two.html)
-
-#### 三栏式布局-两端固定，中间自适应
-* 方法：圣杯布局
-* 主要运用：
-* 效果查看：[点击查看](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task03-three-column-layout/other-implement/implement-three.html)
-* 代码实现：[点击查看](https://github.com/FishNon/2017-ife-spring-class/blob/master/weiwei-college/task03-three-column-layout/other-implement/implement-three.html)
-
-#### 三栏式布局-两端固定，中间自适应
-* 方法：双飞翼布局
-* 主要运用：
-* 效果查看：[点击查看](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task03-three-column-layout/other-implement/implement-four.html)
-* 代码实现：[点击查看](https://github.com/FishNon/2017-ife-spring-class/blob/master/weiwei-college/task03-three-column-layout/other-implement/implement-four.html)
 

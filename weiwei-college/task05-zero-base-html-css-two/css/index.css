@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #dedede;
+    min-width: 700px;
+}
+
+/*header style*/
+.header {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: #333;
+}
+
+.header img {
+    position: relative;
+    left: 32px;
+    top: 5px;
+    width: 130px;
+}
+
+.header ul {
+    position: relative;
+    display: inline-block;
+    float: right;
+    line-height: 60px;
+}
+
+.header ul li {
+    display: inline-block;
+    width: 80px;
+    float: left;
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.header ul li a {
+
+    color: #fff;
+    text-decoration: none;
+    font-family: "仿宋", "宋体";
+    font-weight: bolder;
+}
+
+.header ul li:nth-child(4) a {
+    margin-right: 10px;
+    color: #a6a4a9;
+}
+
+/*main style*/
+.main {
+    position: relative;
+    width: 100%;
+}
+
+/*left style*/
+.left {
+    position: relative;
+    display: inline-block;
+    width: calc(100% - 400px);
+}
+
+.section {
+    position: relative;
+    padding: 30px 20px;
+    margin: 20px;
+    background: #fff;
+    border: 1px solid #cbcbcb;
+    box-shadow: 2px 2px #848484;
+}
+
+.section h1 {
+    font-size: 22px;
+    font-family: "黑体";
+    font-weight: 600;
+}
+
+.section h2 {
+    padding: 15px 0 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #646464;
+}
+
+.section span {
+    display: block;
+    font-size: 12px;
+    color: #646464;
+}
+
+.section > p {
+    padding: 10px 0;
+    text-indent: 2em;
+    line-height: 2em;
+    font-family: "宋体";
+    font-size: 16px;
+}
+
+.section img {
+    width: 50%;
+    min-width: 100px;
+}
+
+.section ul {
+    padding: 20px 20px 0;
+    list-style-type: none;
+}
+
+.section ol {
+    padding: 20px 0 10px 40px;
+}
+
+.img-section {
+    text-align: center;
+}
+
+.img-control {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #cbcbcb;
+    width: 150px;
+    margin: 20px 10px 0 0;
+}
+
+.img-control p {
+    font-size: 15px;
+    text-align: center;
+    text-indent: 0;
+}
+
+.img-control img {
+    position: relative;
+    display: block;
+    width: 130px;
+    margin: 10px auto;
+}
+
+.section table {
+    width: 100%;
+}
+
+.section table tr td {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.section table tr th {
+    background: #333;
+    color: #fff;
+    text-align: left;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.section table tr:nth-child(6) {
+    background: #ccc;
+}
+
+.left-side-title {
+    position: relative;
+    padding: 5px 0 5px 10px;
+    border-left: 3px solid #cacaca;
+    font-weight: 700;
+}
+
+.right {
+    position: relative;
+    width: 400px;
+    float: right;
+}
+
+.right .section {
+    margin-left: 0;
+}
+
+.right .section form label {
+    display: inline-block;
+    text-align: right;
+    font-size: 13px;
+    font-family: "仿宋", "宋体";
+}
+
+label.describe {
+    width: 120px;
+    margin: 10px 10px 0 0;
+    padding: 0 0 5px;
+}
+
+.user-information-explain {
+    position: relative;
+    display: block;
+    width: 150px;
+    left: 135px;
+}
+
+form textarea {
+    height: 60px;
+    vertical-align: text-top;
+}
+
+form button {
+    position: relative;
+    margin: 10px 0 10px 20px;
+    background: #3355D0;
+    border: none;
+    color: #fff;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+/*footer style*/
+
+.footer {
+    background: #000;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 12px;
+}
