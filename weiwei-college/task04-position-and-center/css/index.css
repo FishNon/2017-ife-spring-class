@@ -5,18 +5,18 @@
 
 html, body {
     height: 100%;
+    width: 100%;
 }
 
 .main {
-    position: relative;
-    margin: 0 auto;
+    position: absolute;
+    margin: auto;
     width: 400px;
     height: 200px;
     top: 50%;
-    bottom: 50%;
-    margin-top: -100px;
-    /*top: calc(50% - 100px);*/
+    left: 50%;
     background: #ccc;
+    transform: translate(-50%,-50%);
 }
 
 .main:before, .main:after {
@@ -29,7 +29,7 @@ html, body {
     border-left: 50px solid transparent;
     border-right: 50px solid #fc0;
     border-bottom: 50px solid transparent;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .main:before {
@@ -39,7 +39,6 @@ html, body {
 }
 
 .main:after {
-    /*top: 50px;*/
     bottom: -50px;
     margin-left: calc(100% - 50px);
     transform: rotate(-135deg);
