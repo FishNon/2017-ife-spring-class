@@ -37,6 +37,11 @@
 * 主要内容：HTML标签、CSS样式的使用
 * 效果展示：[零基础HTML及CSS编码（二）](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task05-zero-base-html-css-two/index.html)
 
+### 任务六:通过HTML及CSS模拟报纸排版
+
+* 位置:[weiwei-college/task06-simulated-newspaper-layout]
+* 主要内容:HTML,CSS
+* 效果展示:[通过HTML及CSS模拟报纸排版](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task06-simulated-newspaper-layout/)
 
 ## 糯米学院
 
