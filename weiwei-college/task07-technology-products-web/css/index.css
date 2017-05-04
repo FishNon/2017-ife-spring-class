@@ -101,7 +101,7 @@ html, body {
     width: 100%;
     height: 681px;
     background: url("../img/header01.png") no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .main .module-one h2 {
@@ -183,7 +183,7 @@ html, body {
     width: 100%;
     height: 337px;
     background: url("../img/bg01.png") no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .main .module-four .context {

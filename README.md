@@ -47,7 +47,7 @@
 
 * 位置:[weiwei-college/task07-technology-products-web]
 * 主要内容:HTML,CSS
-* 效果展示:[通过HTML及CSS模拟报纸排版](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task07-technology-products-web/)
+* 效果展示:[实现常见的技术产品官网的页面架构及样式布局](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task07-technology-products-web/)
 
 ## 糯米学院
 
