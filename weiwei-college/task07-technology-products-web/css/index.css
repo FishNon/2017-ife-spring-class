@@ -305,8 +305,10 @@ html, body {
 }
 
 .main .module-six {
+    position: relative;
     width: 100%;
     height: 460px;
+    margin: 0 0 100px;
 }
 
 .main .module-six .left {
@@ -422,6 +424,198 @@ html, body {
 
 .main .module-six .right span .icono-circle:nth-child(3) {
     left: -30px;
+}
+
+.main .module-seven {
+    position: relative;
+    height: 520px;
+    width: 100%;
+}
+
+.main .module-seven .part {
+    position: relative;
+    display: inline-block;
+    width: 33.1%;
+    height: 100%;
+}
+
+.main .module-seven .part:nth-child(1), .main .module-seven .part:nth-child(2) {
+    top: -46.8%;
+    height: 60%;
+    background: #e8504f;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 58px;
+    font-weight: 400;
+    font-family: 黑体;
+}
+
+.main .module-seven .part:nth-child(2) {
+    background: #fff;
+    color: #333;
+}
+
+.main .module-seven .part:nth-child(1):after, .main .module-seven .part:nth-child(2):after {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    margin: 20px 0;
+    left: 45%;
+}
+
+.main .module-seven .part:nth-child(2):after {
+    background: #aaa;
+}
+
+.main .module-seven .part button {
+    margin: 40px 0;
+    width: 169px;
+    height: 44px;
+    background: transparent;
+    border: 1px solid #fff;
+    font-size: 18px;
+    color: #fff;
+}
+
+.main .module-seven .part:nth-child(2) button {
+    color: #e8504f;
+    border: 1px solid #e8504f;
+}
+
+.main .module-seven .part:nth-child(3) {
+    position: relative;
+    background: url("../img/bg03.png");
+    background-size: cover;
+}
+
+.main .module-seven .part:nth-child(3):before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.main .module-seven .part:nth-child(3):after {
+    position: absolute;
+    content: '';
+    top: 250px;
+    border: 25px solid #fff;
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.main .module-eight {
+    position: relative;
+    height: 748px;
+    width: 100%;
+}
+
+.main .module-eight .top {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    color: #333;
+}
+
+.main .module-eight .top h3 {
+    font-weight: 100;
+    font-size: 21px;
+}
+
+.main .module-eight .top h3:after {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 2px;
+    background: #d45d5c;
+    margin: 20px 0;
+    top: 20px;
+    left: 49%;
+}
+
+.main .module-eight .top p {
+    margin-top: 20px;
+    color: #ababab;
+    font-size: 13px;
+}
+
+.main .module-eight .bottom .left {
+    position: relative;
+    left: 11%;
+    top: 200px;
+    width: 23%;
+    height: 100%;
+    color: #333;
+}
+
+.main .module-eight .bottom .left .part h3 {
+    font-weight: 300;
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.main .module-eight .bottom .left .part p {
+    font-size: 12px;
+    color: #aaa;
+    line-height: 2em;
+}
+
+.main .module-eight .bottom .right {
+    position: relative;
+    float: right;
+    width: 60%;
+    top: -135px;
+}
+
+.main .module-eight .bottom .right label {
+    display: inline-block;
+    width: 300px;
+    background: #ededef;
+    margin: 7px 5px;
+    color: #5a5b5b;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.main .module-eight .bottom .right label input {
+    background: #ededef;
+    border: none;
+}
+
+.main .module-eight .bottom .right label input:focus {
+    outline: none;
+}
+
+.main .module-eight .bottom .right label:nth-child(7) {
+    width: 634px;
+}
+
+.main .module-eight .bottom .right label textarea {
+    width: 630px;
+    height: 90px;
+    margin: 10px 0;
+    background: #ededef;
+    border: none;
+}
+
+.main .module-eight .bottom .right label textarea:focus {
+    outline: none;
+}
+
+.main .module-eight .bottom .right input[type="submit"] {
+    background: #ededef;
+    border: none;
+    width: 654px;
+    margin-left: 5px;
+    height: 40px;
+    color: #2d2d2d;
 }
 
 /*底部样式 */
