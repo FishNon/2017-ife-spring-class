@@ -307,8 +307,8 @@ html, body {
 .main .module-six {
     position: relative;
     width: 100%;
-    height: 460px;
-    margin: 0 0 100px;
+    height: 470px;
+    margin: 0 0 101px;
 }
 
 .main .module-six .left {
@@ -436,26 +436,24 @@ html, body {
 .main .module-seven .part {
     position: relative;
     display: inline-block;
-    width: 33.1%;
-    height: 100%;
+    width: 33.2%;
 }
 
 .main .module-seven .part:nth-child(1), .main .module-seven .part:nth-child(2) {
-    top: -46.8%;
-    height: 60%;
+    height: 81%;
     background: #e8504f;
     color: #fff;
     font-size: 20px;
     text-align: center;
-    padding-top: 150px;
-    padding-bottom: 58px;
     font-weight: 400;
     font-family: 黑体;
+    padding-top: 100px;
 }
 
 .main .module-seven .part:nth-child(2) {
     background: #fff;
     color: #333;
+    margin-left: -4px;
 }
 
 .main .module-seven .part:nth-child(1):after, .main .module-seven .part:nth-child(2):after {
@@ -488,7 +486,8 @@ html, body {
 }
 
 .main .module-seven .part:nth-child(3) {
-    position: relative;
+    float: right;
+    height: 100%;
     background: url("../img/bg03.png");
     background-size: cover;
 }
