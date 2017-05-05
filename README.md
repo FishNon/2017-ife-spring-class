@@ -49,6 +49,14 @@
 * 主要内容:HTML,CSS
 * 效果展示:[实现常见的技术产品官网的页面架构及样式布局](https://fishnon.github.io/2017-ife-spring-class/weiwei-college/task07-technology-products-web/)
 
+## 彬彬学院
+
+### 任务一：零基础JavaScript编码（一）
+
+* 位置:[binbin-college/task01-basic-javascript-one]
+* 主要内容:JavaScript
+* 效果展示:[实现常见的技术产品官网的页面架构及样式布局](https://fishnon.github.io/2017-ife-spring-class/binbin-college/task01-basic-javascript-one/)
+
 ## 糯米学院
 
 ### 任务一：自定义的checkbox，radio样式
