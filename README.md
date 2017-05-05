@@ -55,7 +55,13 @@
 
 * 位置:[binbin-college/task01-basic-javascript-one]
 * 主要内容:JavaScript
-* 效果展示:[实现常见的技术产品官网的页面架构及样式布局](https://fishnon.github.io/2017-ife-spring-class/binbin-college/task01-basic-javascript-one/)
+* 效果展示:[零基础JavaScript编码（一）](https://fishnon.github.io/2017-ife-spring-class/binbin-college/task01-basic-javascript-one/)
+
+### 任务二：零基础JavaScript编码（二）
+
+* 位置:[binbin-college/task02-basic-javascript-two]
+* 主要内容:JavaScript
+* 效果展示:[零基础JavaScript编码（二）](https://fishnon.github.io/2017-ife-spring-class/binbin-college/task02-basic-javascript-two/)
 
 ## 糯米学院
 
